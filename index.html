@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Contacto</title>
+    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+    <script defer src="js/app.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <h1>GENERAR QR</h1>
+    </header>
+    <div class="contenedor">
+        <form action="" id="formulario" class="formulario">
+            <label for="name">Nombre:</label>
+            <input type="text" name="name" id="name" ><br/>
+            <label for="name">Apellido:</label>
+            <input type="text" name="apellido" id="apellido" ><br/>
+            <label for="telefono"> Numero de Teléfono:</label>
+            <input type="tel" name="telefono" id="telefono"><br/>
+            <label for="telefonoF"> Numero de Teléfono fijo:</label>
+            <input type="tel" name="telefonoF" id="telefonoF"><br/>
+            <label for="correo">Email</label>
+            <input type="email" name="correo" id="correo">
+            <button class="btn">Generar QR</button>
+        </form>
+        <div id="contenedorQR" class="contenedorQR"></div>
+    </div>
+    
+</body>
+</html>
